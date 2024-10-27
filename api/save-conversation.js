@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = import('axios');
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
